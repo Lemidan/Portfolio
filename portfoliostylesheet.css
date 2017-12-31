@@ -1,0 +1,71 @@
+body {
+  position: relative;
+}
+
+.parent {
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutMe {
+  background-color: #E6E6E6;
+  float: top;
+}
+
+#aboutText{
+  padding: 15px;
+  line-height: 50px;
+  font-family: Sans serif;
+  font-size: 20px;
+
+}
+
+.imgProfile {
+  display: block;
+  margin: auto;
+  max-width: 500px;
+  max-height: auto;
+  border-radius: 100%;
+}
+
+.btnSocial {
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  background-color: white;
+  color: black;
+}
+
+.codeText {
+  color: #428bca;
+}
+
+.myPortfolio {
+  background-color: #D8D8D8;
+  padding: 20px;
+  float: top;
+  box-shadow: none;
+}
+
+.innerPortfolioBlock {
+  display: block;
+  margin: auto;
+}
+
+.portfolioCText {
+  color: #428BCA;
+  font-size: 20px;
+  margin-bottom: 300px;
+}
+
+img-thumbnail {
+}
+
+.contactMe {
+  background-color: #E6E6E6;
+  padding: 20px;
+  float: top;
+  box-shadow: none;
+}

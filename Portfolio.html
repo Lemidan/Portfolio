@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!--Scrollspy-->
+        <div data-spy="scroll" data-target=".navbar" data-offset="50" class="container-fluid">
+
+            <!--Navbar-->
+            <nav class="navbar navbar-default bg-faded navbar-fixed-top">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#about">Daniel Fredriksson</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>        
+            </nav>
+        </div>
+  
+        <!--About me--> 
+        <div id="about"class="text-center aboutMe parent">
+
+            <!--About headline-->
+            <br>
+            <h3 style="padding-bottom: 15px;"><code>&lt;Aspiring Web developer&gt;</code></h3>
+
+            <!--About image-->
+            <div class="container-fluid text-center col-xs-12">
+              <img src="http://i50.photobucket.com/albums/f325/Lemidan/Daniel2_zpsv8t14xq4.png" class="img-responsive text-center imgProfile" alt="Picture"/>
+            </div>
+
+            <!--About text-->
+            <p class="text-center" id="aboutText"><code id="codeText">&lt;Working with management.&gt;</code><br><code>&lt;Experienced in graphical design and layout.&gt;</code><br><code>&lt;Interested in programming.&gt;</code><br><code>&lt;Building my portfolio.&gt;</code></p>
+            <h3><code>&lt;/About&gt;</code></h3><br>
+        </div>
+
+        <!--Portfolio-->
+        <div id="portfolio"class="text-center myPortfolio parent">
+      
+            <!--Portfolio text 1-->
+            <h3 style="margin: 30px"><code style="color: #428BCA">{Portfolio}</code><h3>
+            <p><code class="portfolioCText">{My portfolio is under: construction;}</code></p><br>
+        
+            <!--Portfolio thumbnails-->
+            <div class="innerPortfolioBlock container row">            
+                <!--Thumbnail 1-->
+                <div class="col-xs-3 col-xs-offset-2">
+                    <a href="https://codepen.io/Lemidan/full/ZLgwaB/" class="thumbnail" alt="Twitter" target="_blank">
+                    <img src="http://i50.photobucket.com/albums/f325/Lemidan/Daniel2_zpsv8t14xq4.png" class="img-thumbnail">
+                    </a>
+                </div>
+
+                <!--Thumbnail 2-->
+                <div class="col-xs-3 col-xs-offset-2">
+                    <a href="https://twitter.com/lemidan" class="thumbnail" alt="Twitter" target="_blank">
+                    <img src="http://i50.photobucket.com/albums/f325/Lemidan/Daniel2_zpsv8t14xq4.png" class="img-thumbnail">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <!--Thumbnail 3-->
+                <div class="col-xs-3 col-xs-offset-2">
+                    <a href="https://twitter.com/lemidan" class="thumbnail" alt="Twitter" target="_blank">
+                    <img src="http://i50.photobucket.com/albums/f325/Lemidan/Daniel2_zpsv8t14xq4.png" class="img-thumbnail">
+                    </a>
+                </div>
+        
+                <!--Thumbnail 4-->
+                <div class="col-xs-3 col-xs-offset-2">
+                    <a href="https://twitter.com/lemidan" class="thumbnail" alt="Twitter" target="_blank">
+                    <img src="http://i50.photobucket.com/albums/f325/Lemidan/Daniel2_zpsv8t14xq4.png" class="img-thumbnail">
+                    </a>
+                </div>
+            </div>
+    
+        <!--Portfolio text 2-->
+        <div>
+            <h3 style="margin: 30px"><code style="color: #428BCA">{Portfolio;}</code><h3>
+        </div> 
+        
+        <!--Contact-->
+        <div id="contact" class="text-center contactMe parent">
+            <h3 style="padding-bottom: 10px"><code>@Contact me</code></h3>
+      
+        <!--Mail-->
+        <code>@By mail:</code><br>
+            <a class="btn btn-social-icon btn-lg btnSocial" href="mailto:mail@danielfredriksson.se">
+                <span class="fa fa-envelope fa-fw"></span>
+            </a>
+        <br>
+      
+        <!--Github-->
+        <code>@On GitHub:</code><br>
+        <a id="gitBtn" class="btn btn-social-icon btn-lg btnSocial" href="https://github.com/Lemidan" target="_blank">
+        <span class="fa fa-github"></span></a>
+        <br>
+      
+        <!--Twitter-->
+        <code>@Or on Twitter:</code><br>
+        <br>
+      
+        <!--Twitter timeline-->
+        <div>
+            <a class="twitter-timeline" data-width="600" data-height="600" href="https://twitter.com/lemidan">Tweets by lemidan</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <h3><code>--&lt;/&gt;--</code></h3>
+        </div>
+    </body>
+</html>
