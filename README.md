@@ -1,2 +1,2 @@
 # Portfolio
-Simple layout for a portfolio. Will be updated with new design and features.
+Simple layout for a portfolio. Started working on the design.
